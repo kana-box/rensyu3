@@ -568,7 +568,7 @@ header {
   width: 100%;
   background: url(../images/kv.jpg) no-repeat top;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   height: 300px;
 
 }
@@ -586,6 +586,10 @@ header .headerinner {
 
 .headerinner nav ul{
   display: none;
+}
+
+.menu_list{
+  display: block;
 }
 
 /* _________________________
@@ -658,7 +662,7 @@ ____________________________  */
   background: url(../images/bg.jpg) no-repeat;
   background-position: top;
   background-size: cover;
-  height: 1100px;
+  height: 1300px;
 }
 
 .home_menuinner{
@@ -711,6 +715,8 @@ ____________________________  */
 
 .home_menuinner_right img{
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
 
 }
 
@@ -770,7 +776,7 @@ ____________________________  */
   background: url(../images/bg2.jpg) no-repeat;
   background-position: top;
   background-size: cover;
-  height: 1900px;
+  height: 1700px;
 }
 
 .home_staffinner{
@@ -792,10 +798,15 @@ ____________________________  */
   text-align: center;
 }
 
+.home_staffinner_left img,
+.home_staffinner_right img{
+  width: 100%;
+}
+
 .home_staffinner_staff{
   background-color:　#000;
   color: #7c5b3b;
-  width: 400px;
+  width: 100%;
   height: 100px;
   text-align: center;
   border: 1px solid #663300;
@@ -818,12 +829,84 @@ ____________________________  */
   text-align: center;
 }
 
+
+/* _________________________
+        home_reserve
+____________________________  */
+
+.home_reserveinner{
+	width: 80%;
+  margin: 150px auto;
+  position: relative;
+}
+
+.home_reserveinner img{
+  z-index: 20;
+  width: 100%;
+  position: relative;
+}
+
+.home_reserve_right{
+  background: url(../images/bg4.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  bottom: -200px;
+  right:  0px;
+  z-index: 10;
+  text-align: center;
+}
+
+.home_reserve_right h3{
+  color: #462301;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 250px;
+}
+
+.home_reserve_right span{
+  padding-left: 16px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.home_reserve_right p{
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.home_reserve_right a{
+  text-decoration: none;
+  border: 1px solid #462301;
+  display: block;
+  width: 150px;
+  text-align: center;
+  color: #462301;
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  transition-property: all;
+  transition: 0.3s linear;
+  margin: 20px auto 0 auto;
+}
+
+.home_reserve_right a:hover{
+  background-color: #663300;
+  color: #fff;
+}
+
 /* _________________________
         home_access
 ____________________________  */
 
 .home_accessinner{
-	width: 960px;
+	width: 80%;
   margin: 150px auto 50px auto;
 }
 
@@ -837,6 +920,55 @@ ____________________________  */
   font-style: italic;
 }
 
+/* _________________________
+        home_footer
+____________________________  */
+
+.home_footer{
+  background: url(../images/bg4.jpg) no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.home_footerinner{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home_footerinner_left{
+  float: none;
+  padding-top: 100px;
+}
+
+.home_footerinner_left p{
+  color: #333;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.home_footerinner_left span{
+  font-size: 24px;
+  color: #462301;
+  font-weight: bold;
+}
+
+.home_footerinner img{
+  display: none;
+  padding-top: 100px;
+}
+
+footer .copy{
+  background-color: #7c5b3b;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
 
 }
 
@@ -946,7 +1078,7 @@ ____________________________  */
   background: url(../images/bg.jpg) no-repeat;
   background-position: top;
   background-size: cover;
-  height: 1100px;
+  height: 1300px;
 }
 
 .home_menuinner{
@@ -999,6 +1131,8 @@ ____________________________  */
 
 .home_menuinner_right img{
   width: 100%;
+  margin: 0 auto;
+  text-align: center;
 
 }
 
@@ -1058,7 +1192,7 @@ ____________________________  */
   background: url(../images/bg2.jpg) no-repeat;
   background-position: top;
   background-size: cover;
-  height: 1900px;
+  height: 1700px;
 }
 
 .home_staffinner{
@@ -1080,10 +1214,15 @@ ____________________________  */
   text-align: center;
 }
 
+.home_staffinner_left img,
+.home_staffinner_right img{
+  width: 100%;
+}
+
 .home_staffinner_staff{
   background-color:　#000;
   color: #7c5b3b;
-  width: 400px;
+  width: 100%;
   height: 100px;
   text-align: center;
   border: 1px solid #663300;
